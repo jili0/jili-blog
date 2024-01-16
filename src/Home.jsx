@@ -3,7 +3,7 @@ import "./stylesheets/home.css"
 const Home = () => {
   return (
     <>
-      <h2>Home page</h2>
+      <h2>Home</h2>
     </>
   )
 }
