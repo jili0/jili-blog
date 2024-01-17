@@ -1,4 +1,4 @@
-import "./stylesheets/post.css"
+import "../stylesheets/post.css"
 
 const Post = () => {
   return (

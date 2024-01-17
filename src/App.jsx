@@ -1,11 +1,11 @@
 import "./stylesheets/app.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
-import Nav from "./Nav";
-import Home from "./Home";
-import Post from "./Post";
-import About from "./About";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import Post from "./components/Post";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -15,11 +15,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-        </Routes>
-        <Routes>
           <Route path="/post" element={<Post />} />
-        </Routes>
-        <Routes>
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
