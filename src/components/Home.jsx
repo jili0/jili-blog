@@ -1,9 +1,9 @@
 import "../stylesheets/home.css"
 
-const Home = () => {
+const Home = ({posts}) => {
   return (
     <>
-      <h2>Home</h2>
+      <ul>{posts.map(post => <li><p>{post.postTitle}</p><p>{post.postBody}</p></li>)}</ul>
     </>
   )
 }

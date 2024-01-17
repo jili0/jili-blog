@@ -6,16 +6,24 @@ nav {
   align-items: center;
 }
 
+.searchBar {
+  padding: .2vh;
+  font: inherit;
+  border-radius: 4px;
+  margin-inline: 1vh;
+  padding-inline: 1vh;
+  width: 100%;
+}
+
 nav > a {
   text-decoration: none;
   color: #ccc;
-  padding: 1vh 2vh;
+  padding: 1vh;
   width: 100%;
   text-align: center;
-
+  font-size: min(25px, 2.5vh);
 }
 
 nav > a:hover {
-  background-color: #ccc;
-  color: #333;
+  opacity: .8;
 }

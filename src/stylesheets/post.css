@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.postLabel {
+  position: absolute;
+  left: -99999px;
+}
+
+.postTitle, .postBody {
+  font: inherit;
+  padding: 1vh;
+  border-radius: 4px;
+  border: solid 1px #333;
+}
+
+.submitButton {
+  padding: 1vh;
+  font: inherit;
+  background-color: slateblue;
+  color: #ccc;
+  border-radius: 4px;
+  border: solid 1px #333;
+}
